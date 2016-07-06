@@ -18,6 +18,7 @@ eg.
 
 #假设你的mysql是安装在/usr/local/mysql
 `./configure --with-php-config=/usr/local/php/bin/php-config --with-pdo-mysql=/usr/local/mysql`
+
 `./configure --with-php-config=/usr/local/php/bin/php-config --with-mysqli=/usr/local/mysql/bin/mysql_config`
 
 `make && makeinstall`
