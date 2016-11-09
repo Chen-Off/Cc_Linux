@@ -4,13 +4,11 @@
 
 请先进入PHP安装文件夹比较好 eg./usr/local/
 
-`
-wget http://cn2.php.net/distributions/php-5.6.9.tar.gz
+`wget http://cn2.php.net/distributions/php-5.6.9.tar.gz`
 
-tar -zxvf  php-5.6.9.tar.gz
+`tar -zxvf  php-5.6.9.tar.gz`
 
-cd php-5.6.9
-`
+`cd php-5.6.9`
 
 完整的编译
 
