@@ -6,7 +6,9 @@
 
 `
 wget http://cn2.php.net/distributions/php-5.6.9.tar.gz
+
 tar -zxvf  php-5.6.9.tar.gz
+
 cd php-5.6.9
 `
 
