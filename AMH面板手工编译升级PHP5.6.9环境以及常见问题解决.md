@@ -3,6 +3,7 @@
 上诉网站中有一些模块没有在一开始就加入编译。如果需要其他的模版，则需要在一开始的时候就加入编译。或者在后续进行独立的编译。
 
 请先进入PHP安装文件夹比较好 eg./usr/local/
+
 `
 wget http://cn2.php.net/distributions/php-5.6.9.tar.gz
 tar -zxvf  php-5.6.9.tar.gz
@@ -10,9 +11,11 @@ cd php-5.6.9
 `
 
 完整的编译
+
 `./configure --prefix=/usr/local/php --enable-fpm --with-fpm-user=www --with-fpm-group=www --with-config-file-path=/etc --with-config-file-scan-dir=/etc/php.d --with-openssl --with-zlib  --with-curl --enable-ftp --with-gd --with-jpeg-dir --with-png-dir --with-freetype-dir --enable-gd-native-ttf --enable-mbstring --enable-zip --with-iconv=/usr/local/libiconv --with-mysql=/usr/local/mysql --without-pear --disable-fileinfo --enable-opcache --with-pdo-mysql=/usr/local/mysql --with-mysqli=/usr/local/mysql/bin/mysql_config`
 
 执行编译
+
 `make&&make install`
 
 
