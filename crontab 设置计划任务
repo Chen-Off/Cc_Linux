@@ -1,5 +1,0 @@
-如果没有安装`crontab`先安装：
-
-`yum -y install vixie-cron`
-
-`yum -y install crontabs`
