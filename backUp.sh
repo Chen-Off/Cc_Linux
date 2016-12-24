@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#AMH 备份所有的数据库和指定的网站程序(请注意：上传到linux中记得设置.sh文件的格式和去除乱码并授权)
+
 cd /home/wwwroot/backUp/
 dbPwd='XXXXXXXXXXXX'
 #创建本次备份的日期路径
@@ -21,7 +23,7 @@ done
 #mysqldump -uroot -pwWuz7E5HGyMFY93 --all-databases | gzip > database_`date '+%m-%d-%Y'`.sql.gz
 
 #备份功能
-websiteName=(dadedadeads.com order.bagssell.co usa.bagssell.net yuting.bagssell.net ok.bagssell.net fb-account.com)
+websiteName=(aa.com bb.com cc.com dd.com)
 for website in ${websiteName[@]}
 do
 zip -r ${websiteDir}/${website}.zip ../${website}/web/*
