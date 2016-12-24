@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#AMH 备份所有的数据库和网站程序(请注意：上传到linux中记得设置.sh文件的格式和去除乱码并授权)
+
 cd /home/wwwroot/backUp/
 dbPwd='XXXXXXXXXXXXXXX'
 websiteDir='allData/'
