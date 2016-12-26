@@ -25,6 +25,6 @@ do
 if [ $website = 'index' ] || [ $website = 'backUp' ]; then 
 echo 'error'
 else
-zip -r ${websiteDir}/${website}.zip ../${website}/web/*
+zip -rq ${websiteDir}/${website}.zip ../${website}/web/*
 fi
 done
